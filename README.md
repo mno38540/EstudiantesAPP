@@ -1,0 +1,1 @@
+Este proyecto muestra la integracion de herramientes cmo .net asp y uso de lenguaje c#, en la creacion de la herrmaiente para crear ver y elimina estudiantes , con validaciones y un metodo de seguridad como lo es un ingreso de seccion
