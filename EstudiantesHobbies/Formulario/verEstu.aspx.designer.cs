@@ -11,7 +11,7 @@ namespace EstudiantesHobbies.Formulario
 {
 
 
-    public partial class Home
+    public partial class verEstu
     {
     }
 }

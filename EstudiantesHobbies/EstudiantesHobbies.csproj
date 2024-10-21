@@ -76,7 +76,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Formulario\Home.aspx" />
+    <Content Include="Formulario\Images\MIT-Logo.png" />
+    <Content Include="Formulario\Images\mit_circulo.jpg" />
     <Content Include="Formulario\Login.aspx" />
+    <Content Include="Formulario\nuevoEstu.aspx" />
+    <Content Include="Formulario\Recuperacion.aspx" />
+    <Content Include="Formulario\verEstu.aspx" />
     <Content Include="Model\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
@@ -103,6 +108,27 @@
     </Compile>
     <Compile Include="Formulario\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\nuevoEstu.aspx.cs">
+      <DependentUpon>nuevoEstu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formulario\nuevoEstu.aspx.designer.cs">
+      <DependentUpon>nuevoEstu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\Recuperacion.aspx.cs">
+      <DependentUpon>Recuperacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formulario\Recuperacion.aspx.designer.cs">
+      <DependentUpon>Recuperacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\verEstu.aspx.cs">
+      <DependentUpon>verEstu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formulario\verEstu.aspx.designer.cs">
+      <DependentUpon>verEstu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Logica\DbConect.cs" />
     <Compile Include="Model\Estudiante.cs">

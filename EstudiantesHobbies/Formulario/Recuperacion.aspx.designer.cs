@@ -11,7 +11,7 @@ namespace EstudiantesHobbies.Formulario
 {
 
 
-    public partial class Login
+    public partial class Recuperacion
     {
 
         /// <summary>
@@ -33,13 +33,13 @@ namespace EstudiantesHobbies.Formulario
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl label1;
 
         /// <summary>
-        /// Control TextBox1.
+        /// Control input1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText input1;
 
         /// <summary>
         /// Control label2.
@@ -93,7 +93,7 @@ namespace EstudiantesHobbies.Formulario
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl input4;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText input4;
 
         /// <summary>
         /// Control label5.
@@ -123,31 +123,13 @@ namespace EstudiantesHobbies.Formulario
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl label6;
 
         /// <summary>
-        /// Control Text1.
+        /// Control TextBox1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText Text1;
-
-        /// <summary>
-        /// Control label8.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl label8;
-
-        /// <summary>
-        /// Control Text2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText Text2;
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
 
         /// <summary>
         /// Control input7.
@@ -157,14 +139,5 @@ namespace EstudiantesHobbies.Formulario
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlSelect input7;
-
-        /// <summary>
-        /// Control Button1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
     }
 }

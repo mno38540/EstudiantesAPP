@@ -13,5 +13,15 @@ namespace EstudiantesHobbies.Formulario
         {
 
         }
+
+        protected void button_click1(object sender, EventArgs e)
+        {
+            // INICIAR SECION
+        }
+
+        protected void button_click2(object sender, EventArgs e)
+        {
+            // CREAR REGISTRO
+        }
     }
 }
