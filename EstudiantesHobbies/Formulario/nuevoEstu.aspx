@@ -3,7 +3,10 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-         <div class="col-md-6">
+    
+    <h2>Registro de nuevo estudiante</h2>
+         <div class="col-md-6 ">
+             <br />
          <label runat="server" id="label1" class="form-label"> Identificacion : </label>
          <asp:TextBox ID="TextBox1" runat="server" class="form-control" placeholder="ingrese un codigo" type="number" ></asp:TextBox>
      </div>
