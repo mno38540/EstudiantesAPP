@@ -14,10 +14,19 @@ namespace EstudiantesHobbies.Model
     
     public partial class Estudiante
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Estudiante()
+        {
+            this.Estusiante_Hobbie = new HashSet<Estusiante_Hobbie>();
+        }
+    
         public string Identificacion { get; set; }
         public string Nombre { get; set; }
         public string Apelllido { get; set; }
         public string Direccion { get; set; }
         public string Telefono { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Estusiante_Hobbie> Estusiante_Hobbie { get; set; }
     }
 }

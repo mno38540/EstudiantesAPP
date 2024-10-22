@@ -12,19 +12,13 @@ namespace EstudiantesHobbies.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class Hobbie
+    public partial class Estusiante_Hobbie
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Hobbie()
-        {
-            this.Estusiante_Hobbie = new HashSet<Estusiante_Hobbie>();
-        }
-    
         public string Codigo { get; set; }
-        public string Nombre { get; set; }
-        public string Descripcion { get; set; }
+        public string Identificacion { get; set; }
+        public string CodigoHobbie { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Estusiante_Hobbie> Estusiante_Hobbie { get; set; }
+        public virtual Estudiante Estudiante { get; set; }
+        public virtual Hobbie Hobbie { get; set; }
     }
 }

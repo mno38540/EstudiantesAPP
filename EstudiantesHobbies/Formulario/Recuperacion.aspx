@@ -22,9 +22,6 @@
             <label>RECUPERACIÓN DE CONTRASEÑAS</label>
 </nav>
 
-
-
-
     <form id="form1" runat="server" style="margin: auto 8rem 8rem 8rem">
         <div>
     <br />

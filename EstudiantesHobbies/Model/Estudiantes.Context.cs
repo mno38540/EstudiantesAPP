@@ -13,10 +13,10 @@ namespace EstudiantesHobbies.Model
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class AlumnosEntities1 : DbContext
+    public partial class AlumnosEntities : DbContext
     {
-        public AlumnosEntities1()
-            : base("name=AlumnosEntities1")
+        public AlumnosEntities()
+            : base("name=AlumnosEntities")
         {
         }
     
@@ -27,6 +27,8 @@ namespace EstudiantesHobbies.Model
     
         public virtual DbSet<Estudiante> Estudiante { get; set; }
         public virtual DbSet<Hobbie> Hobbie { get; set; }
+        public virtual DbSet<Estusiante_Hobbie> Estusiante_Hobbie { get; set; }
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<Usuario> Usuario { get; set; }
     }
 }
