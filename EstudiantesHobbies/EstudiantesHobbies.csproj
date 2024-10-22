@@ -76,9 +76,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Formulario\Home.aspx" />
+    <Content Include="Formulario\Images\google.jpg" />
     <Content Include="Formulario\Images\MIT-Logo.png" />
     <Content Include="Formulario\Images\mit_circulo.jpg" />
+    <Content Include="Formulario\Images\net-framework.jpg" />
     <Content Include="Formulario\Images\salida.png" />
+    <Content Include="Formulario\Images\vs.jpg" />
     <Content Include="Formulario\Login.aspx" />
     <Content Include="Formulario\nuevoEstu.aspx" />
     <Content Include="Formulario\Recuperacion.aspx" />

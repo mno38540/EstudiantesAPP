@@ -10,11 +10,11 @@
 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-        <asp:GridView ID="GridView1" runat="server" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+        <asp:GridView ID="GridView1" runat="server" OnSelectedIndexChanged="GridView1_SelectedIndexChanged"  CssClass="table table-striped table-bordered table-hover" >
         </asp:GridView>
 
-        <br />
-        <br />
+    <br />
+<br />
 
     <asp:Button class="btn btn-secondary"   OnClick="button_click1" Text=" Nuevo Registro "  runat="server"/>
 
