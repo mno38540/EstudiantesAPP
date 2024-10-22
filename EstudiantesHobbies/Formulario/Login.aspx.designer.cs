@@ -129,7 +129,7 @@ namespace EstudiantesHobbies.Formulario
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText input5;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword input5;
 
         /// <summary>
         /// Control label6.
@@ -147,7 +147,7 @@ namespace EstudiantesHobbies.Formulario
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText input6;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword input6;
 
         /// <summary>
         /// Control label8.

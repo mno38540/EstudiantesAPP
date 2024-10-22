@@ -22,5 +22,11 @@ namespace EstudiantesHobbies.Logica
 
         }
 
+        public void Contra(Usuario usa) 
+        {
+            db.Entry(usa).State = System.Data.Entity.EntityState.Modified;
+            db.SaveChanges();
+        }
+
     }
 }

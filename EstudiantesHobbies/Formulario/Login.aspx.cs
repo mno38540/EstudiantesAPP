@@ -26,7 +26,7 @@ namespace EstudiantesHobbies.Formulario
                 {
                     if (usu.contraseña == log2.Value)
                     {
-                        Response.Redirect("Home.aspx");
+                        Response.Redirect("Home.aspx?modalExito()");
                     }
                     throw new Exception("Contraseña invalidas");
                 }

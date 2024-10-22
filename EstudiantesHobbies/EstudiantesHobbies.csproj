@@ -75,10 +75,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Formulario\CrearStudiante.aspx" />
     <Content Include="Formulario\Home.aspx" />
     <Content Include="Formulario\Images\MIT-Logo.png" />
     <Content Include="Formulario\Images\mit_circulo.jpg" />
+    <Content Include="Formulario\Images\salida.png" />
     <Content Include="Formulario\Login.aspx" />
     <Content Include="Formulario\nuevoEstu.aspx" />
     <Content Include="Formulario\Recuperacion.aspx" />
@@ -96,13 +96,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Formulario\CrearStudiante.aspx.cs">
-      <DependentUpon>CrearStudiante.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Formulario\CrearStudiante.aspx.designer.cs">
-      <DependentUpon>CrearStudiante.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Formulario\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -21,5 +21,10 @@ namespace EstudiantesHobbies.Formulario
         {
 
         }
+
+        protected void button_click1(object sender, EventArgs e)
+        {
+            Response.Redirect("nuevoEstu.aspx");
+        }
     }
 }

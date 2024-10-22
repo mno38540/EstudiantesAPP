@@ -96,12 +96,12 @@
         <br />
         <div class="col-md-6">
             <label runat="server" id="label5" class="form-label">Contraseña: </label>
-            <input runat="server" type="text" class="form-control" id="input5" placeholder="Ingrese la clave"/>
+            <input runat="server" type="password" class="form-control" id="input5" placeholder="Ingrese la clave"/>
         </div>
         <br />
           <div class="col-md-6">
             <label runat="server" id="label6" class="form-label">Contraseña: </label>
-            <input runat="server" type="text" class="form-control" id="input6" placeholder="Repita la contraseña"/>
+            <input runat="server" type="password" class="form-control" id="input6" placeholder="Repita la contraseña"/>
         </div>
           <br />
           <div class="col-md-6">
