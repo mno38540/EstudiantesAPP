@@ -15,5 +15,12 @@ namespace EstudiantesHobbies.Logica
             return  db.Usuario.Find(correo);
         }
 
+        public void AddUser(Usuario usu)
+        {
+            db.Usuario.Add(usu);
+            db.SaveChanges();
+
+        }
+
     }
 }

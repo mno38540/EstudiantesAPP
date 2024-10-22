@@ -75,8 +75,8 @@
        <!--  CONTENIDO DEL REGISTRO DE USUARIO -->
            <br />
              <div class="col-md-6">
-                 <label runat="server" id="label1" class="form-label">Codigo : </label>
-                 <asp:TextBox ID="TextBox1" runat="server" class="form-control" placeholder="Campo  automatico"    ReadOnly ></asp:TextBox>
+                 <label runat="server" id="label1" class="form-label"> Identificacion : </label>
+                 <asp:TextBox ID="TextBox1" runat="server" class="form-control" placeholder="ingrese un codigo" type="number" ></asp:TextBox>
              </div>
              <br />
              <div class="col-md-6">
@@ -101,17 +101,17 @@
         <br />
           <div class="col-md-6">
             <label runat="server" id="label6" class="form-label">Contraseña: </label>
-            <input runat="server" type="text" class="form-control" id="Text1" placeholder="Repita la contraseña"/>
+            <input runat="server" type="text" class="form-control" id="input6" placeholder="Repita la contraseña"/>
         </div>
           <br />
           <div class="col-md-6">
             <label runat="server" id="label8" class="form-label"> Telefono: </label>
-            <input runat="server" type="text" class="form-control" id="Text2" placeholder="Numero de telefono"/>
+            <input runat="server" type="text" class="form-control" id="input7" placeholder="Numero de telefono"/>
         </div>
         <br />
         <div class="col-md-4">
             <label id="label7" for="inputState" class="form-label">Area</label>
-            <select id="input7" runat="server" class="form-select" type="text">
+            <select id="input8" runat="server" class="form-select" type="text">
                 <option value="">--Selecciona una Opcion--</option>
                 <option value="Registro Academico">Registro Academico</option>
                 <option value="Desarrollo">Desarrollo</option>
