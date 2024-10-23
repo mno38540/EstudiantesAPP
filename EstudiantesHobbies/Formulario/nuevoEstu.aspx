@@ -2,39 +2,41 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-    
+    <div class="container text-center">
+  <div class="row justify-content-md-center">
+      <div class="col-md-auto">
     <h2>Registro de nuevo estudiante</h2>
-         <div class="col-md-6 ">
+         <div class="">
              <br />
          <label runat="server" id="label1" class="form-label"> Identificacion : </label>
          <asp:TextBox ID="TextBox1" runat="server" class="form-control" placeholder="ingrese un codigo" type="number" ></asp:TextBox>
      </div>
      <br />
-     <div class="col-md-6">
+     <div class="">
          <label runat="server" id="label2" class="form-label">Nombre: </label>
          <input runat="server" type="text" class="form-control" id="input2" placeholder="Ingrese Nombre"/>
      </div>
      <br />
-  <div class="col-md-6">
+  <div class="">
     <label runat="server" id="label3" class="form-label"> Apellido </label>
     <input runat="server" type="text" class="form-control" id="input3" placeholder="Apellido"/>
 </div>
 <br />
-<div class="col-md-6">
+<div class="">
     <label runat="server" id="label4" class="form-label">Direccion: </label>
     <input runat="server" type="text" class="form-control" id="input4" placeholder="Direccion"/>
 </div>
 <br />
-  <div class="col-md-6">
+  <div class="">
     <label runat="server" id="label8" class="form-label"> Telefono: </label>
     <input runat="server" type="text" class="form-control" id="input7" placeholder="Numero de telefono"/>
 </div>
+
+
         <br />
         
         <br />
         <br />
-           
 
                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#crear">Crear</button>
 
@@ -46,7 +48,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        Seguro que desea Cear el producto
+        Seguro que desea Cear el Registro
       </div>
       <div class="modal-footer">
         <asp:Button class="btn btn-success"   OnClick="button_click1" Text=" Guardar "  runat="server"/>
@@ -60,7 +62,6 @@
    &nbsp;&nbsp;&nbsp;
    <asp:Button CssClass="btn btn-warning" OnClick="button_click3" Text="EDITAR" runat="server" />
    &nbsp;&nbsp;&nbsp;
-
    <!-- CREACION DE MODAL PARA ELIMINAR REGISTROS     -->
 
                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#eliminar">
@@ -158,4 +159,7 @@
 
      <asp:Literal ID="modalEjecucion" runat="server"> </asp:Literal>
 <br />
+</div>      
+</div>           
+</div>
 </asp:Content>

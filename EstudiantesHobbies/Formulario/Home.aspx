@@ -24,21 +24,21 @@
                                     <div id="MainContent_upControlButtonsAddPayment" style="padding-bottom: 50px;">
 		                                    
                                        <!-- CARROUSEL DE IMAGENES -->
-              <div id="carouselExampleIndicators" class="carousel slide"  max-width="800px" max-height="400px"   >
+              <div id="carouselExampleIndicators" class="carousel carousel-dark slide"  max-width="800px" max-height="400px"   >
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner">x
+  <div class="carousel-inner" max-width="800px" max-height="400px" >x
     <div class="carousel-item active">
-      <img src="Images/google.jpg" class="d-block w-100" alt="...">
+      <img src="Images/google.jpg" class="d-block w-100" alt="..." max-width="800px" max-height="400px" >
     </div>
     <div class="carousel-item">
-      <img src="Images/vs.jpg" class="d-block w-100" alt="...">
+      <img src="Images/vs.jpg" class="d-block w-100" alt="..." max-width="800px" max-height="400px">
     </div>
     <div class="carousel-item">
-      <img src="Images/net-framework.jpg" class="d-block w-100" alt="...">
+      <img src="Images/net-framework.jpg" class="d-block w-100" alt="..." max-width="800px" max-height="400px" >
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

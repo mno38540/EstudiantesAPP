@@ -25,11 +25,15 @@
 
     <form id="form1" runat="server" style="margin: auto 8rem 8rem 8rem">
            <br />
-    
-<div class="col-md-6">
+      <div class="container text-center">
+<div class="row justify-content-md-center">
+    <div class="col-md-auto">
+
     <label runat="server" id="label4" class="form-label">Correo: </label>
     <input runat="server" type="email" class="form-control" id="input4" placeholder="Correo electronico"/>
 </div>
+    </div>
+          </div>
            <br />
         <asp:Button class="btn btn-primary"   OnClick="button_click1" Text=" Buscar "  runat="server"/>
         <asp:Button class="btn btn-secondary"   OnClick="button_click3" Text=" Regresar "  runat="server"/>
@@ -56,16 +60,21 @@
                      <asp:Label ID="Label9" runat="server" Text=" "></asp:Label>
                   </div>
                </div>
-
-          <div class="col-md-6">
+            <div class="container text-center">
+            <div class="row justify-content-md-center">
+             <div class="col-md-auto">
+          <div class="">
     <label runat="server" id="label5" class="form-label">Contraseña: </label>
     <input runat="server" type="password" class="form-control" id="input5" placeholder="Ingrese la clave"/>
 </div>
 <br />
-  <div class="col-md-6">
+  <div class="">
     <label runat="server" id="label6" class="form-label">Contraseña: </label>
     <input runat="server" type="password" class="form-control" id="input6" placeholder="Repita la contraseña"/>
 </div>
+                 </div>
+                </div>
+                </div>
            <br />
            <br />
         <asp:Button class="btn btn-success"   OnClick="button_click2" Text=" Actualizar "  runat="server"/>

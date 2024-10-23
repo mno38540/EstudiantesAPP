@@ -73,43 +73,47 @@
       </div>
       <div class="modal-body">
        <!--  CONTENIDO DEL REGISTRO DE USUARIO -->
+            <div class="container text-center">
+            <div class="row justify-content-md-center">
+            <div class="col-md-auto">
+
            <br />
-             <div class="col-md-6">
+             <div class="">
                  <label runat="server" id="label1" class="form-label"> Identificacion : </label>
                  <asp:TextBox ID="TextBox1" runat="server" class="form-control" placeholder="ingrese un codigo" type="number" ></asp:TextBox>
              </div>
              <br />
-             <div class="col-md-6">
+             <div class="">
                  <label runat="server" id="label2" class="form-label">Nombre: </label>
                  <input runat="server" type="text" class="form-control" id="input2" placeholder="Ingrese Nombre"/>
              </div>
              <br />
-          <div class="col-md-6">
+          <div class="">
             <label runat="server" id="label3" class="form-label"> Apellido </label>
             <input runat="server" type="text" class="form-control" id="input3" placeholder="Apellido"/>
         </div>
         <br />
-        <div class="col-md-6">
+        <div class="">
             <label runat="server" id="label4" class="form-label">Correo: </label>
             <input runat="server" type="email" class="form-control" id="input4" placeholder="Correo electronico"/>
         </div>
         <br />
-        <div class="col-md-6">
+        <div class="">
             <label runat="server" id="label5" class="form-label">Contraseña: </label>
             <input runat="server" type="password" class="form-control" id="input5" placeholder="Ingrese la clave"/>
         </div>
         <br />
-          <div class="col-md-6">
+          <div class="">
             <label runat="server" id="label6" class="form-label">Contraseña: </label>
             <input runat="server" type="password" class="form-control" id="input6" placeholder="Repita la contraseña"/>
         </div>
           <br />
-          <div class="col-md-6">
+          <div class="">
             <label runat="server" id="label8" class="form-label"> Telefono: </label>
             <input runat="server" type="text" class="form-control" id="input7" placeholder="Numero de telefono"/>
         </div>
         <br />
-        <div class="col-md-4">
+        <div class="">
             <label id="label7" for="inputState" class="form-label">Area</label>
             <select id="input8" runat="server" class="form-select" type="text">
                 <option value="">--Selecciona una Opcion--</option>
@@ -120,7 +124,9 @@
             </select>
         </div>
         <br />
-
+        </div>
+        </div>
+        </div>
 
       </div>
       <div class="modal-footer">
