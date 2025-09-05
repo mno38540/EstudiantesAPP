@@ -100,7 +100,7 @@ namespace EstudiantesHobbies.Formulario
                 if (usuario != null)
                 {
 
-                usuario = new Estudiante();
+                //usuario = new Estudiante(); 
                 if (!decimal.TryParse(TextBox1.Text, out decimal codigo) || codigo == 0)
                 {
                     throw new Exception("El codigo no puede ser cero o letras");
